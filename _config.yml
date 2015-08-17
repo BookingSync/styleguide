@@ -10,21 +10,18 @@ source:           docs
 destination:      _gh_pages
 host:             0.0.0.0
 port:             9001
-url:              http://getbootstrap.com
+url:              http://styleguide.bookingsync.com
 encoding:         UTF-8
 
 # Custom vars
 current_version:  3.3.5
-repo:             https://github.com/twbs/bootstrap
-sass_repo:        https://github.com/twbs/bootstrap-sass
+repo:             https://github.com/bookingsync/styleguide
+sass_repo:        https://github.com/bookingsync/styleguide-sass
 
 download:
-  source:         https://github.com/twbs/bootstrap/archive/v3.3.5.zip
-  dist:           https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip
-  sass:           https://github.com/twbs/bootstrap-sass/archive/v3.3.5.tar.gz
-
-blog:             http://blog.getbootstrap.com
-expo:             http://expo.getbootstrap.com
+  source:         https://github.com/bookingsync/styleguide/archive/v3.3.5.zip
+  dist:           https://github.com/bookingsync/styleguide/releases/download/v3.3.5/styleguide-3.3.5-dist.zip
+  sass:           https://github.com/bookingsync/styleguide-sass/archive/v3.3.5.tar.gz
 
 cdn:
   css:            https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
