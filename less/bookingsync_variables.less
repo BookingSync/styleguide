@@ -2,7 +2,12 @@
 @brand-success:                 #2db859;
 @brand-info:                    #199bd7;
 @brand-warning:                 #f8c432;
-@brand-danger:                  #ef5f36;
+@brand-danger:                  #e74c3c; // #ef5f36;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+@font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
 
 //== Components
 //
@@ -35,3 +40,43 @@
 @menu-footer-link-color:        @menu-link-color;
 
 @menu-border-radius:            @border-radius-base;
+
+
+//== Forms
+//
+@input-color:                   rgb(106, 117, 141); // #6a758d
+@input-border-radius-base:      0;
+@input-border-radius:           @input-border-radius-base;
+@input-border:                  rgba(30, 50, 100, 0.5);
+@input-border-focus:            @input-color;
+@input-height-base:             ((@padding-base-vertical * 2) + @font-size-base + 1); // 1 for bottom border
+@input-bg-disabled:             transparent;
+
+@label-color:                   rgba(106, 117, 141, .75);
+
+@label-padding-focus:           (@padding-base-vertical + @label-font-size-focus);
+@label-font-size-focus:         12px;
+@label-color-focus:             @brand-primary;
+@label-border-focus:            @label-color-focus;
+
+@label-font-size-filled:        @label-font-size-focus;
+@label-color-filled:            rgba(106, 117, 141, 0.6);
+@label-border-filled:           @input-border;
+
+@label-color-disabled:          rgba(106, 117, 141, 0.5);
+
+@input-group-addon-bg:          transparent;
+@input-group-addon-height:      (@input-height-base + @label-padding-focus);
+@input-group-addon-padding-top: (@label-padding-focus + (@padding-base-vertical / 2));
+
+@state-success-text:            @brand-success;
+@state-success-bg:              transparent;
+@state-success-border:          @state-success-text;
+
+@state-warning-text:            @brand-warning;
+@state-warning-bg:              transparent;
+@state-warning-border:          @state-warning-text;
+
+@state-danger-text:             @brand-danger;
+@state-danger-bg:               transparent;
+@state-danger-border:           @state-danger-text;
