@@ -447,3 +447,11 @@ fieldset[disabled] .form-control {
 .has-feedback .input-group ~ .form-control-feedback {
   top: @label-font-size-focus;
 }
+
+.form-inline .has-feedback .form-control-feedback {
+  top: (@label-font-size-focus + (@padding-base-vertical / 2));
+}
+
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: @label-font-size-focus;
+}
