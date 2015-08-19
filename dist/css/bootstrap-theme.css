@@ -366,4 +366,10 @@ fieldset[disabled] .form-control {
 .has-feedback .input-group ~ .form-control-feedback {
   top: 12px;
 }
+.form-inline .has-feedback .form-control-feedback {
+  top: 15px;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 12px;
+}
 /*# sourceMappingURL=bootstrap-theme.css.map */
