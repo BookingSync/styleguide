@@ -406,4 +406,8 @@ fieldset[disabled] .form-control {
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 12px;
 }
+.navbar-form {
+  margin-top: 4.5px;
+  margin-bottom: 4.5px;
+}
 /*# sourceMappingURL=bootstrap-theme.css.map */
