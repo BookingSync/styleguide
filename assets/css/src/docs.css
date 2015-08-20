@@ -1046,7 +1046,7 @@ h1[id] {
   margin-left: 0;
 }
 .bs-navbar-top-example {
-  padding-bottom: 45px;
+  padding-bottom: 59px;
 }
 .bs-navbar-top-example:after {
   top: auto;
@@ -1056,7 +1056,7 @@ h1[id] {
   top: -1px;
 }
 .bs-navbar-bottom-example {
-  padding-top: 45px;
+  padding-top: 59px;
 }
 .bs-navbar-bottom-example .navbar-fixed-bottom {
   bottom: -1px;
