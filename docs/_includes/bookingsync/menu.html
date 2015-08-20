@@ -5,7 +5,7 @@
     <nav class="menu flex-col">
       <header class="dropdown">
         <div class="bar">
-          <img src="http://placehold.it/24x24" class="img-responsive img-circle" alt="Fullname">
+          <img src="http://placehold.it/24x24" class="img-responsive img-circle brand" alt="Fullname">
           <p>
             Surf Office: Lisbon<br>
             <small>
@@ -17,11 +17,6 @@
         </div>
         <div id="menu-header-submenu" class="menu-dropdown" aria-labelledby="menu-switch-account">
           <ol>
-            <li role="presentation">
-              <a href="#">SurfOffice: Lisbon
-                <span class="label label-transparent pull-right">current</span>
-              </a>
-            </li>
             <li role="presentation">
               <a href="#">SurfOffice: Grand Canaria</a>
             </li>
@@ -58,7 +53,7 @@
       </div>
       <footer>
         <div class="bar">
-          <img src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-11/6253926944_bd7ce3198dba69ac91be_24.jpg" class="img-responsive img-circle" alt="Peter Fabor">
+          <img src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-11/6253926944_bd7ce3198dba69ac91be_24.jpg" class="img-responsive img-circle avatar" alt="Peter Fabor">
           <p>
             Peter Fabor<br>
             <small>
@@ -92,7 +87,7 @@
 <nav class="menu flex-col">
   <header class="dropdown">
     <div class="bar">
-      <img src="http://placehold.it/24x24" class="img-responsive img-circle" alt="Fullname">
+      <img src="http://placehold.it/24x24" class="img-responsive img-circle brand" alt="Fullname">
       <p>
         Surf Office: Lisbon<br>
         <small>
@@ -145,7 +140,7 @@
   </div>
   <footer>
     <div class="bar">
-      <img src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-11/6253926944_bd7ce3198dba69ac91be_24.jpg" class="img-responsive img-circle" alt="Peter Fabor">
+      <img src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-11/6253926944_bd7ce3198dba69ac91be_24.jpg" class="img-responsive img-circle avatar" alt="Peter Fabor">
       <p>
         Peter Fabor<br>
         <small>
@@ -175,5 +170,17 @@
   </footer>
 </nav>
 {% endhighlight %}
+
+<div class="bs-callout bs-callout-info" id="callout-menu-styling">
+  <h4>Recommended for full height sticky menu</h4>
+<p><pre>
+.menu {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+</pre></p>
+</div>
 
 </div>
