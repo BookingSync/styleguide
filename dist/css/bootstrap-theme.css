@@ -37,6 +37,9 @@ h6 > i,
 .menu:hover .body {
   overflow-y: overlay;
 }
+.menu:hover .menu-dropright {
+  overflow-y: overlay;
+}
 .menu header .bar,
 .menu footer .bar {
   position: relative;
