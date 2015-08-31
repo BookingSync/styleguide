@@ -15,6 +15,7 @@
 @gray:                          fade(@gray-base, 75%);
 @gray-light:                    fade(@gray-base, 50%);
 @gray-lighter:                  fade(@gray-base, 25%);
+@gray-lightest:                 fade(@gray-base, 15%);
 
 //== Scaffolding
 //
@@ -39,13 +40,14 @@
 //
 @menu-color:                    #566da7;
 @menu-bg:                       #1e3264;
+@menu-header-height:            70px;
 @menu-header-color:             #ffffff;
 @menu-header-bg:                @brand-primary;
 @menu-header-link-color:        #ffffff;
 @menu-header-link-hover-color:  @menu-header-link-color;
 @menu-header-link-hover-bg:     #53b4e1;
-@menu-link-color:               @menu-color;
-@menu-link-icon-color:          @menu-color;
+@menu-link-color:               #8ea8ea;
+@menu-link-icon-color:          fade(@menu-link-color, 50%);
 @menu-link-bg:                  @menu-bg;
 @menu-link-hover-color:         #ffffff;
 @menu-link-hover-icon-color:    @menu-color;
@@ -56,9 +58,10 @@
 @menu-footer-color:             #ffffff;
 @menu-footer-bg:                @menu-bg;
 @menu-footer-link-color:        @menu-link-color;
+@menu-footer-back-color:        #fff;
 
-@menu-border-radius:            @border-radius-base;
-
+@menu-border-radius:              @border-radius-base;
+@menu-default-toggle-icon-bar-bg: @gray-light;
 
 //== Forms
 //
@@ -102,7 +105,34 @@
 
 //== Navbar
 //
-@navbar-height:                 60px;
-@navbar-default-bg:             #fff;
-@navbar-default-color:          @gray-dark;
-@navbar-default-border:         @gray-light;
+@navbar-height:                     60px;
+@navbar-default-bg:                 #fff;
+@navbar-default-color:              @gray-dark;
+@navbar-default-border:             @gray-lighter;
+@navbar-default-toggle-icon-bar-bg: @gray-light;
+
+
+//== Panels
+//
+@panel-footer-bg:                   #fff;
+@panel-default-heading-bg:          #fff;
+@panel-border-radius:               @border-radius-large;
+@panel-inner-border:                @gray-lightest;
+@panel-default-border:              @gray-lighter;
+
+
+//== Tables
+//
+@table-border-color:                @gray-lightest;
+@table-bg-accent:                   #f4f5f7;
+@table-bg:                          #fff;
+
+
+//== Sheet
+//
+@sheet-bg:                          #fff;
+@sheet-border:                      @gray-lighter;
+@sheet-border-radius:               3px;
+@sheet-margin:                      (@grid-gutter-width / 2);
+@sheet-padding:                     @sheet-margin;
+@sheet-inner-border:                @gray-lightest;
