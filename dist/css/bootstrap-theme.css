@@ -497,4 +497,7 @@ fieldset[disabled] .form-control {
   padding: 0;
   margin: 0;
 }
+caption {
+  color: rgba(30, 50, 100, .75);
+}
 /*# sourceMappingURL=bootstrap-theme.css.map */
