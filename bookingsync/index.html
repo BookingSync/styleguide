@@ -96,7 +96,7 @@
       <div class="row">
         <div class="col-md-9" role="main">
           <div class="bs-docs-section">
-  <h1 id="navbar" class="page-header">Menu</h1>
+  <h1 id="menu" class="page-header">Menu</h1>
 
   <div class="bs-example bs-menu" data-example-id="menu">
     <nav class="menu flex-col">
@@ -162,9 +162,9 @@
         </div>
         <div id="menu-footer-submenu" class="menu-dropright flex-col" aria-labelledby="menu-manage-account">
           <ol class="flex-1">
-            <li role="presentation">
+            <li class="back text-center" role="presentation">
               <a data-target="#menu-footer-submenu" href="#" data-toggle="dropdown">
-                <i class="fa fa-long-arrow-left fa-fw"></i> <span>Back</span></a>
+                <i class="fa fa-long-arrow-left fa-fw"></i> <span class="sr-only">Back</span></a>
             </li>
             <li role="presentation">
               <a href="#"><i class="fa fa-user fa-fw"></i> <span>Personal Information</span></a>
@@ -280,6 +280,38 @@
 
 </div>
 
+<div class="bs-docs-section">
+  <h1 id="sheet" class="page-header">Sheet</h1>
+
+  <h2 id="sheet-example">Basic example</h2>
+  <p>Highly inspired from the <code>panel</code> component, the sheet will auto scale and have a relative position to ease children positioning.</p>
+  <div class="bs-example bs-sheet" data-example-id="sheet-example">
+    <div class="sheet">
+      <p>Text...</p>
+    </div>
+  </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sheet"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Text...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+
+  <h2 id="sheet-example-with-header">Example with header</h2>
+  <div class="bs-example bs-sheet-with-header" data-example-id="sheet-example-with-header">
+    <div class="sheet">
+      <div class="sheet-header">
+        <h2>Header</h2>
+      </div>
+      <p>Text...</p>
+    </div>
+  </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sheet"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sheet-header"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Header<span class="nt">&lt;/h2&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Text...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+</div>
+
 
         </div>
         
@@ -288,6 +320,7 @@
             <ul class="nav bs-docs-sidenav">
               
                 <li><a href="#menu">Menu</a></li>
+<li><a href="#sheet">Sheet</a></li>
 
               
             </ul>
