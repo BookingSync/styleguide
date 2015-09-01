@@ -18,6 +18,11 @@ h6 > i,
   padding-right: 7px;
   color: rgba(30, 50, 100, .5);
 }
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .menu {
   position: relative;
   z-index: 9000;
